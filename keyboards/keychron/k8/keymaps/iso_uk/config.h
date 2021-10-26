@@ -45,8 +45,8 @@
 #define LED_PIN_ON_STATE  1
 
 /* Debounce reduces chatter (unintended double-presses) - set 0 if debouncing is not needed */
-#define DEBOUNCE 25
-
+#define DEBOUNCE 5
+#define FORCE_NKRO
 //#define FORCE_NKRO
 
 #include "config_led.h"
