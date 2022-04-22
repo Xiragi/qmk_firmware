@@ -43,7 +43,7 @@
 #define LED_PIN_ON_STATE  1
 
 /* Debounce reduces chatter (unintended double-presses) - set 0 if debouncing is not needed */
-#define DEBOUNCE 5
+#define DEBOUNCE 0
 
 // RGB LED Config
 #define LED_MATRIX_ROWS MATRIX_ROWS
@@ -102,3 +102,7 @@
 #define ENABLE_RGB_MATRIX_MULTISPLASH
 #define ENABLE_RGB_MATRIX_SOLID_SPLASH
 #define ENABLE_RGB_MATRIX_SOLID_MULTISPLASH
+
+#define USB_POLLING_INTERVAL_MS 1
+#define QMK_KEYS_PER_SCAN 9
+#define FORCE_NKRO
