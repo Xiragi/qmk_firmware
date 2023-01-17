@@ -21,6 +21,10 @@ DIP_SWITCH_ENABLE = yes
 RGB_MATRIX_ENABLE = yes
 RGB_MATRIX_DRIVER = SN32F24xB
 
+
+DEBOUNCE_TYPE = sym_eager_pk
+
+
 # project specific files
 SRC = ../../../drivers/led/sn32/matrix_sn32f24xx.c
 
